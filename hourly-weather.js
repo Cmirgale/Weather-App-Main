@@ -4,7 +4,6 @@ const filterHourlyData = async (promise) => {
     let currentTime = new Date();
     let hourlyData = [];
     let time,imageDesc,temp;
-    // let weekDayDate;
     // console.log(data);
 
     for(let i=0; i<12; i += 1){

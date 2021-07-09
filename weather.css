@@ -35,7 +35,7 @@ button:hover{
 /* Header */
 
 header{
-    background-color: dimgray;
+    background-color: slategrey;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,6 +82,7 @@ header{
     display: flex;
     flex-direction: row;
     width: 100%;
+    /* background-color: darkslategray; */
 }
 .weather-short-desc{
     border: 1px solid black;
@@ -91,6 +92,7 @@ header{
     margin-left: 4%;
     margin-top: 5%;
     height: fit-content;
+    background-color: #4e63a6;
 }   
 
 .city,.weather-desc,.min-max,.temp{
@@ -128,12 +130,14 @@ header{
     margin-top: 4.5%;
     padding: 2%;
     margin-right: 2%;
+  
    
 }
 
 .daily-hourly-container.active{
     border: 1px solid;
     border-radius: 5px;
+    background-color: steelblue;
 }
 .hourly-container-1,.hourly-container-2{
     display: flex;
@@ -176,6 +180,7 @@ header{
     flex-direction: row;
     /* border: 1px solid; */
     margin-left: 8%;
+    /* background-color: teal; */
 
 }
 

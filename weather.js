@@ -21,9 +21,9 @@ const fillData = ({
   }) => {
     let display = [
       { key: ".city", value: city },
-      { key: ".temp", value: `${temp}` },
-      { key: ".max-temp", value: `Max : ${maxTemp}`},
-      { key: ".min-temp", value: `Min : ${minTemp}` },
+      { key: ".temp", value: `${temp}°C`  },
+      { key: ".max-temp", value: `Max : ${maxTemp}°C`},
+      { key: ".min-temp", value: `Min : ${minTemp}°C` },
       { key: ".weather-desc", value: weatherDesc }
     ];
   
