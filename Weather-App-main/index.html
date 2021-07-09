@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.1/dist/autoComplete.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Crimson+Text:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="weather.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="icon">
+                <img src="images\main-icon.png" alt="Logo">
+            </div>
+            <div class="app-name">
+                Weather Forecast
+            </div>
+        </header>
+
+        <div class="location">
+            <span class="weekly-hourly-btn">
+                <button class="weekly-btn" id="weekly-btn" style="display: inline;">Weekly</button>
+                <button class="hourly-btn" id="hourly-btn" style="display: inline;">Hourly</button>
+            </span>
+            <div class="input-location">
+                <input type="text" class="city-input" placeholder="Enter a city"  >
+            </div>
+            <span class="search-btn">
+                <button id="search-location-btn" class="search-location-btn">Search</button>
+            </span>
+            <span class="current-location">
+                    <img title="Current location" class="current-location-btn" src="images\current-location.png" alt="current location">
+            </span>
+        </div>
+
+        <div class="container">
+            <div class="weather-short-desc">
+                <div class="city">
+                    Nitur        
+                </div>
+                <div class="weather-desc">
+                    Clouds
+                </div>
+                <div class="temp">
+                    29<span class="temp-unit">°C</span>
+                    
+                </div>
+                <div class="min-max">
+                    <span class="max-temp">Max</span>
+                    <span class="min-temp">Min</span>
+                </div>
+            </div>
+
+            <div class="daily-hourly-container">
+                <div class="hourly-container">
+                    <div class="hourly-container-1"></div>
+                    <div class="hourly-container-2"></div>
+                </div>
+                <div class="weekly-container"></div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
